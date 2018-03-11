@@ -31,7 +31,7 @@ apis:
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/getty-images/v3-search-videos-editorial-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/getty-images/v3-videos-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
