@@ -12,21 +12,11 @@ tags:
 - Stack Network
 - Stack
 - Google APIs
-created: "2018-02-26"
-modified: "2018-02-26"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/youtube/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Youtube
-  description: YouTube allows billions of people to discover, watch and share originally-created
-    videos
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: ""
-  baseURL: https://www.googleapis.com//youtube/v1
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/youtube/reports-parameters.md
+apis: []
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
