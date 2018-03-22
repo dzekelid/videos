@@ -36,7 +36,7 @@ apis:
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/group-id-videos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/group-id-videos-.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
