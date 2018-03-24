@@ -18,8 +18,8 @@ tags:
 - Photo
 - Images
 - Getting Started
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -31,7 +31,7 @@ apis:
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-id-similar-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-artists-videos-get.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
