@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Getty Images
-  description: Build applications using the world's most powerful imagery
+  title: Getty Images Get Similar Videos
+  description: Get videos similar to a video by supplying one video id
   version: 1.0.0
 host: api.gettyimages.com
 basePath: /
