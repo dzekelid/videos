@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Getty Images
-  description: Build applications using the world's most powerful imagery
+  title: Getty Images Search Artist ImaVideosges
+  description: Search for videos by a photographer
   version: 1.0.0
 host: api.gettyimages.com
 basePath: /
