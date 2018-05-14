@@ -32,10 +32,10 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-id-similar-get.md
-- name: Getty Images Search for editorial videos
-  description: "Use this endpoint to search current and archival video clips of celebrities,
-    newsmakers, and events.\r\n\r\nYou'll need an API key and access token to use
-    this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
+- name: Getty Images Get Videos Metadatata
+  description: "Use this endpoint to return detailed video metadata for all the specified
+    video ids.\r\n\r\nYou'll need an API key and access token to use this resource.
+    Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key.\r\n\r\nYou can show
     different information in the response by specifying values on the \"fields\" parameter
     (see details below).\r\nYou can search with only an API key, and that will give
@@ -51,8 +51,8 @@ apis:
     **summary_set** query string parameter fields value represents a small batch of
     metadata fields that are often used to build search response results. The following
     fields are provided for every video in your result set when you include **summary_set**
-    in your request.\r\n\r\n```\r\n{\r\n    \"videos\": \r\n    [\r\n        \"asset_family\",
-    \r\n        \"caption\",\r\n        \"collection_code\",\r\n        \"collection_name\",\r\n
+    in your request.\r\n\r\n```\r\n{\r\n    \"videos\": \r\n    [\r\n        \"asset_family\",\r\n
+    \       \"caption\",\r\n        \"collection_code\",\r\n        \"collection_name\",\r\n
     \       \"display_sizes\":\r\n        [\r\n            {\r\n                \"name\":
     \"comp\"\r\n            },\r\n            {\r\n                \"name\": \"preview\"\r\n
     \           },\r\n            {\r\n                \"name\": \"thumb\"\r\n            }\r\n
@@ -61,35 +61,36 @@ apis:
     represents a large batch of metadata fields that are often used to build a detailed
     view of videos. The following fields are provided for every video in your result
     set when you include **detail_set** in your request.\r\n\r\n```\r\n{\r\n    \"videos\":
-    \r\n    [\r\n        \"allowed_use\",\r\n        \"artist\",\r\n        \"asset_family\",
-    \r\n        \"caption\", \r\n        \"clip_length\",\r\n        \"collection_code\",\r\n
-    \       \"collection_id\",\r\n        \"collection_name\", \r\n        \"color_type\",\r\n
+    \r\n    [\r\n        \"allowed_use\",\r\n        \"artist\",\r\n        \"asset_family\",\r\n
+    \       \"caption\",\r\n        \"clip_length\",\r\n        \"collection_code\",\r\n
+    \       \"collection_id\",\r\n        \"collection_name\",\r\n        \"color_type\",\r\n
     \       \"copyright\",\r\n        \"date_created\",\r\n        \"display_sizes\":\r\n
     \       [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
     \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
-    \               \"name\": \"thumb\"\r\n            }\r\n        ],\r\n        \"era\",\r\n
-    \       \"license_model\",\r\n        \"mastered_to\",\r\n        \"originally_shot_on\",\r\n
-    \       \"product_types\",\r\n        \"shot_speed\",\r\n        \"source\",\r\n
-    \       \"title\"\r\n    ]\r\n}\r\n```\r\n\r\n#### Display Fields Set\r\n\r\nThe
-    **display_set** query string parameter fields value represents the fields that
-    provide you with URLs for the low resolution files that are most frequently used
-    to build a UI displaying search results. The following fields are provided for
-    every video in your result set when you include **display_set** in your request.\r\n\r\n```\r\n{\r\n
-    \   \"videos\":\r\n    [\r\n        \"display_sizes\":\r\n        [\r\n            {\r\n
-    \               \"name\": \"comp\"\r\n            },\r\n            {\r\n                \"name\":
-    \"preview\"\r\n            },\r\n            {\r\n                \"name\": \"thumb\"\r\n
-    \           }\r\n        ]\r\n    ]\r\n}\r\n```\r\n\r\n## Request Usage Considerations\r\n\r\n-
-    Specifying the \"entity_details\" response field can have significant performance
-    implications. The field should be used only when necessary."
+    \               \"name\": \"thumb\"\r\n            }\r\n        ],\r\n        \"download_sizes\",\r\n
+    \       \"era\",\r\n        \"license_model\",\r\n        \"mastered_to\",\r\n
+    \       \"originally_shot_on\",\r\n        \"product_types\",\r\n        \"shot_speed\",\r\n
+    \       \"source\",\r\n        \"title\"\r\n    ]\r\n}\r\n```\r\n\r\n#### Display
+    Fields Set\r\n\r\nThe **display_set** query string parameter fields value represents
+    the fields that provide you with URLs for the low resolution files that are most
+    frequently used to build a UI displaying search results. The following fields
+    are provided for every video in your result set when you include **display_set**
+    in your request.\r\n\r\n```\r\n{\r\n    \"videos\":\r\n    [\r\n        \"display_sizes\":
+    \r\n        [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
+    \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
+    \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```\r\n\r\n##
+    Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
+    field can have significant performance implications. The field should be used
+    only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com//
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-search-videos-editorial-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-search-videos-editorial-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-get-postman.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
