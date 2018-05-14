@@ -32,9 +32,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-id-similar-get.md
-- name: Getty Images Get Videos Metadatata
-  description: "Use this endpoint to return detailed video metadata for all the specified
-    video ids.\r\n\r\nYou'll need an API key and access token to use this resource.
+- name: Getty Images Get Video Metadatata
+  description: "Use this endpoint to return detailed video metadata for the specified
+    video id.\r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key.\r\n\r\nYou can show
     different information in the response by specifying values on the \"fields\" parameter
@@ -51,7 +51,7 @@ apis:
     **summary_set** query string parameter fields value represents a small batch of
     metadata fields that are often used to build search response results. The following
     fields are provided for every video in your result set when you include **summary_set**
-    in your request.\r\n\r\n```\r\n{\r\n    \"videos\": \r\n    [\r\n        \"asset_family\",\r\n
+    in your request.\r\n\r\n```\r\n{\r\n    \"videos\":\r\n    [\r\n        \"asset_family\",\r\n
     \       \"caption\",\r\n        \"collection_code\",\r\n        \"collection_name\",\r\n
     \       \"display_sizes\":\r\n        [\r\n            {\r\n                \"name\":
     \"comp\"\r\n            },\r\n            {\r\n                \"name\": \"preview\"\r\n
@@ -60,8 +60,8 @@ apis:
     Detail Fields Set\r\n\r\nThe **detail_set** query string parameter fields value
     represents a large batch of metadata fields that are often used to build a detailed
     view of videos. The following fields are provided for every video in your result
-    set when you include **detail_set** in your request.\r\n\r\n```\r\n{\r\n    \"videos\":
-    \r\n    [\r\n        \"allowed_use\",\r\n        \"artist\",\r\n        \"asset_family\",\r\n
+    set when you include **detail_set** in your request.\r\n\r\n```\r\n{\r\n    \"videos\":\r\n
+    \   [\r\n        \"allowed_use\",\r\n        \"artist\",\r\n        \"asset_family\",\r\n
     \       \"caption\",\r\n        \"clip_length\",\r\n        \"collection_code\",\r\n
     \       \"collection_id\",\r\n        \"collection_name\",\r\n        \"color_type\",\r\n
     \       \"copyright\",\r\n        \"date_created\",\r\n        \"display_sizes\":\r\n
@@ -75,8 +75,8 @@ apis:
     the fields that provide you with URLs for the low resolution files that are most
     frequently used to build a UI displaying search results. The following fields
     are provided for every video in your result set when you include **display_set**
-    in your request.\r\n\r\n```\r\n{\r\n    \"videos\":\r\n    [\r\n        \"display_sizes\":
-    \r\n        [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
+    in your request.\r\n\r\n```\r\n{\r\n    \"videos\":\r\n    [\r\n        \"display_sizes\":\r\n
+    \       [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
     \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```\r\n\r\n##
     Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
@@ -88,9 +88,9 @@ apis:
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/v3-videos-id-get-postman.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
