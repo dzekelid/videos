@@ -85,20 +85,20 @@ paths:
         description: Provide access token in the format of Bearer {token}
       - in: query
         name: auto_download
-        description: '                    Specifies whether to auto-download the video'
+        description: Specifies whether to auto-download the video
       - in: body
         name: download_details
-        description: '                    Additional information required from specific
-          customers when downloading'
+        description: Additional information required from specific customers when
+          downloading
         schema:
           $ref: '#/definitions/holder'
       - in: path
         name: id
-        description: '                    Id of video to download'
+        description: Id of video to download
       - in: query
         name: product_id
-        description: '                    Identifier of the instance for the selected
-          product offering type'
+        description: Identifier of the instance for the selected product offering
+          type
       - in: query
         name: size
         description: Specifies the size to be downloaded

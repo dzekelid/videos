@@ -1,42 +1,76 @@
 ---
 name: Facebook
-description: Facebook is an online social networking service that allows its users
-  to connect with friends and family as well as make new connections. It provides
-  its users with the ability to create a profile, update information, add images,
-  send friend requests, and accept requests from other users. Its features include
-  status update, photo tagging and sharing, and more.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
+x-slug: facebook
+description: Create an account or log into Facebook. Connect with friends, family
+  and other people you know. Share photos and videos, send messages and get updates.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Social Network
-- Social API
-- Social
-- Road Map
-- Payment API
-- Partners
-- My API Stack
-- Issues Example
-- Issues
-- Indie EdTech Data Jam
-- Facebook Stack
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/apis.yaml
+x-alexaRank: "3"
+tags: Videos
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Facebook Get Page Veos
+  x-api-slug: facebook
+  description: The videos contained on this page
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{page}/videos
+  tags: Page,Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/pagevideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/pagevideos-get-openapi.md
+- name: Facebook Post Page Veos
+  x-api-slug: facebook
+  description: Publishes a video to the page
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{page}/videos
+  tags: Page,Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/pagevideos-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/pagevideos-post-openapi.md
+- name: Facebook Get User Veos
+  x-api-slug: facebook
+  description: The videos this user has been tagged in
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/videos
+  tags: User,Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/uservideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/uservideos-get-openapi.md
+- name: Facebook Post User Veos
+  x-api-slug: facebook
+  description: Publishes a video on behalf of the user
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com////{user}/videos
+  tags: User,Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/uservideos-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/uservideos-post-openapi.md
 - name: Facebook
-  description: Facebook is an online social networking service that allows its users
-    to connect with friends and family as well as make new connections
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/facebook_2015_logo_detail.png
-  humanURL: ""
-  baseURL: https://graph.facebook.com/v2.9/
+  x-api-slug: facebook
+  description: Create an account or log into Facebook. Connect with friends, family
+    and other people you know. Share photos and videos, send messages and get updates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg
+  humanURL: http:///business
+  baseURL: https://graph.facebook.com//
   tags: Videos
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/group-id-videos-.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
@@ -54,6 +88,8 @@ x-common:
   url: https://www.facebook.com/business/news/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/facebook
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/facebook
 - type: x-developer
   url: https://developers.facebook.com/
 - type: x-forum
@@ -86,6 +122,10 @@ x-common:
   url: https://www.facebook.com/about/government_requests
 - type: x-twitter
   url: https://twitter.com/facebook
+- type: x-website
+  url: http:///business
+- type: x-website
+  url: http://facebook.com
 - type: x-website
   url: https://facebook.com
 include: []
