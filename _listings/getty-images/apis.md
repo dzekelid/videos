@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Videos
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
