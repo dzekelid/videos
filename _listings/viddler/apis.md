@@ -1,149 +1,378 @@
 ---
 name: Viddler
 x-slug: viddler
-description: www.viddler.com
+description: Viddler is an online sales training platform with integrated tools for
+  practice and evaluation. The Viddler service offers video-based instruction and
+  optional coaching, and allows customers to engage with course content through guided
+  assignments and self-recorded practice sessions.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
 x-kinRank: "8"
 x-alexaRank: "81111"
 tags: Videos
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Viddler  API Videos AddClosedCaptioning
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Add new closed captioning file for a specific video. All uploaded closed
-    captioning files are enabled by default. The first uploaded file is default for
-    a video.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.addClosedCaptioning
-  tags: Viddler,Videos,AddClosedCaptioning
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
-- name: Viddler  API Videos Comments Get
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Get comments for a video. If logged in and querying comments for own
-    video &#8211; all comments with any moderation status will be returned. If quering
-    comments as logged out or for not owned video &#8211; only approved comments will
-    be returned if the video itself is public.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.comments.get
-  tags: Viddler,Videos,Comments,Get
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
-- name: Viddler  API Videos DelClosedCaptioning
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Remove an existing closed captioning file.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.delClosedCaptioning
-  tags: Viddler,Videos,DelClosedCaptioning
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
-- name: Viddler  API Videos Delete
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Delete a video.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.delete
-  tags: Viddler,Videos,Delete
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
-- name: Viddler  API Videos EnableAds
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Turn ads off for specified videos.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.enableAds
-  tags: Viddler,Videos,EnableAds
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
-- name: Viddler  API Videos GetAdsStatus
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: viddler.videos.getAdsStatusnGET
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.getAdsStatus
-  tags: Viddler,Videos,GetAdsStatus
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
-- name: Viddler  API Videos GetEmbedCodeTypes
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Return a list of the embed code types for your account.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.getEmbedCodeTypes
-  tags: Viddler,Videos,GetEmbedCodeTypes
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-openapi.md
-- name: Viddler  API Videos GetRecordToken
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Return a record token to use with Viddler&#8217;s Flash video recorder.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.getRecordToken
-  tags: Viddler,Videos,GetRecordToken
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-openapi.md
-- name: Viddler  API Videos PrepareUpload
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Returns the end-point and token for a new upload session.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.prepareUpload
-  tags: Viddler,Videos,PrepareUpload
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-openapi.md
-- name: Viddler  API Videos SetClosedCaptioning
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Update closed captioning details on a previously uploaded file.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.setClosedCaptioning
-  tags: Viddler,Videos,SetClosedCaptioning
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-setclosedcaptioning-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-setclosedcaptioning-post-openapi.md
-- name: Viddler  API Videos UploadProgress
+- name: Viddler  API
   x-api-slug: viddler--api
-  description: Return the status of an upload.
+  description: the-viddler-api-exposes-viddleru2019s-key-features-to-those-that-would-like-to-build-custom-solutions-on-top-of-viddleru2019s-video-platform-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg
   humanURL: http://www.viddler.com/
-  baseURL: https://api.viddler.com//api/v2/viddler.videos.uploadProgress
-  tags: Viddler,Videos,UploadProgress
+  baseURL: https://api.viddler.com//api/v2
+  tags: Videos, SaaS, Technology, Enterprise, internet, Sales, Trainings, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-addclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-comments-get-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delclosedcaptioning-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-delete-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-enableads-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getadsstatus-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getembedcodetypes-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-getrecordtoken-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-prepareupload-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-setclosedcaptioning-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-setclosedcaptioning-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/viddler-videos-uploadprogress-get-postman.md
   - type: x-openapi-spec
@@ -160,6 +389,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://victorops.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://viddler.stack.network
 - type: x-base
   url: http://api.viddler.com/api/
 - type: x-blog

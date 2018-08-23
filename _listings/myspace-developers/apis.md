@@ -7,95 +7,186 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspa
 x-kinRank: "7"
 x-alexaRank: "4691"
 tags: Videos
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/apis.md
 specificationVersion: "0.14"
 apis:
-- name: My Space Get Mediaitems Personid Videos Supported Categories Categoryid
+- name: My Space
   x-api-slug: my-space
-  description: Retrieves videos for Category.
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
   humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@videos/@supportedcategories/{categoryId}
-  tags: MediaItems,People,@videos,Supported,categories,CategoryId
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
-- name: My Space Get Mediaitems Personid Videos Supported Categories
-  x-api-slug: my-space
-  description: Retrieves supported categories.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@videos/@supportedcategories
-  tags: MediaItems,People,@videos,Supported,categories
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
-- name: My Space Put Mediaitems Personid Self Videos Mediaitemid
-  x-api-slug: my-space
-  description: Updates an video.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@self/@videos/{mediaItemId}
-  tags: MediaItems,People,Self,@videos,MediaItemId
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-openapi.md
-- name: My Space Get Mediaitems Personid Self Videos Mediaitemid
-  x-api-slug: my-space
-  description: Retrieves a video.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@self/@videos/{mediaItemId}
-  tags: MediaItems,People,Self,@videos,MediaItemId
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-openapi.md
-- name: My Space Post Mediaitems Personid Self Videos
-  x-api-slug: my-space
-  description: Adds videos from a specified album.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@self/@videos
-  tags: MediaItems,People,Self,@videos
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-openapi.md
-- name: My Space Get Mediaitems Personid Self Videos
-  x-api-slug: my-space
-  description: Retrieves all the videos.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////1.0/mediaItems/{personId}/@self/@videos
-  tags: MediaItems,People,Self,@videos
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-get-openapi.md
-- name: My Space Get Opensearch Veos
-  x-api-slug: my-space
-  description: Returns search results for videos.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
-  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
-  baseURL: https://api.myspace.com////opensearch/videos
-  tags: Opensearch,Videos
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-openapi.md
+- name: My Space
+  x-api-slug: my-space
+  description: create-apps-and-games-within-the-myspace-platform--monetize-through-advertising-and-virtual-goods-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/opensearchvideos-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-put-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideosmediaitemid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/1-0mediaitemspersonidselfvideos-get-openapi.md
 - name: My Space
   x-api-slug: my-space
   description: 'AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram:
@@ -110,6 +201,10 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+- type: x-api-gallery
+  url: http://mynewsdesk.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://myspace.developers.stack.network
 - type: x-blog
   url: http://www.myspace.com/pressroom?url=/company+blog/
 - type: x-blog-rss

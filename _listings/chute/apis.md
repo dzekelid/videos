@@ -1,33 +1,38 @@
 ---
 name: Chute
-description: Chute gives brands mastery over the worldrsquo;s visual media ndash;
-  from discovering audience content and influencers, to the ideation, production,
-  and amplification of compelling visual material through its visual marketing automation
-  platform, Chute Insights and Chute Workspace. Chute works with some of the worldrsquo;s
-  biggest brands and publishers including Benefit Cosmetics, NBCUniversal, adidas,
-  Brown-Forman, Condeacute; Nast, NBA, United Nations, New York Times, and Ford.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/chute.png
+x-slug: chute
+description: End-to-end solution for visual marketing -  Uncover consumer & competitive
+  insights, manage UGC & publish content to websites, social, ads &
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1254-chute.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Videos
-- Stack Network
-- Social
-- Photo
-- Photo
-- Images
-- Images
-- Images
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/chute/apis.yaml
+x-alexaRank: "902019"
+tags: Videos
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Chute Media
+  x-api-slug: chute-media
+  description: The Chute Media platform helps web and mobile app developers build
+    any photo or video app they can imagine. The Chute Media platform includes a REST
+    API and a set of developer tools that add greater photo and video functionality
+    to mobile apps. Functionality exposed includes search, social tools, uploading
+    of photos and much more.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1254-chute.jpg
+  humanURL: http://www.getchute.com/
+  baseURL: http://api.getchute.com//v2/
+  tags: Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/openapi.md
 x-common:
 - type: x-base
   url: http://api.getchute.com
 - type: x-blog
   url: http://blog.getchute.com/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/chute
 - type: x-developer
   url: http://www.getchute.com/developers/reference/
 - type: x-email

@@ -7,31 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscr
 x-kinRank: "7"
 x-alexaRank: "91598"
 tags: Videos
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/apis.md
 specificationVersion: "0.14"
 apis:
-- name: News Cred Topic Videos
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns a list of videos related to the specified topic.
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///topic/{guid}/videos/
-  tags: News,Topic,Videos
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-openapi.md
-- name: News Cred Videos
+- name: News Cred
   x-api-slug: news-cred
-  description: Returns videos matching the given query string
+  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///videos/
-  tags: News,Videos
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/videos-get-postman.md
   - type: x-openapi-spec
@@ -48,6 +56,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://news.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://newscred.stack.network
 - type: x-base
   url: http://api.newscred.com
 - type: x-blog

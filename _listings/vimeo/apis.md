@@ -1,25 +1,29 @@
 ---
 name: Vimeo
-description: Vimeo is a cleanly-designed video sharing website that allows people
-  to publish their videos for public consumption or just for friends and family. Vimeo
-  launched support for high definition video in October 2007, further establishing
-  itself as a leading video hosting platform. The website is owned by the media conglomerate
-  IAC/InterActiveCorp and operated by Connected Ventures.
-image: https://f.vimeocdn.com/logo.svg
+x-slug: vimeo
+description: Join the worlds best community of creators and fans, enjoy hosting videos
+  in gorgeous, ad-free 4K, and get powerful tools for filmmakers and brands.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/275-vimeo.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Videos
-- Videos
-- Stack Network
-- Stack
-- Road Map
-- OEmbed
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/videos/master/_listings/vimeo/apis.yaml
+x-alexaRank: "137"
+tags: Videos
+created: "2018-08-23"
+modified: "2018-08-23"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Vimeo API
+  x-api-slug: vimeo-api
+  description: The only way to perform authenticated read/write requests on videos,
+    users, groups, channels, albums, or upload. The Advanced API uses OAuth for authentication
+    and you???ll first need to register your app.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/275-vimeo.jpg
+  humanURL: http://vimeo.com
+  baseURL: https://api.vimeo.com//
+  tags: Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/openapi.md
 x-common:
 - type: x-application-management
   url: https://developer.vimeo.com/apps
@@ -37,8 +41,16 @@ x-common:
   url: http://vimeo.com/terms
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/vimeo
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/vimeo
 - type: x-developer
   url: http://developer.vimeo.com/
+- type: x-email
+  url: support@vimeo.com
+- type: x-email
+  url: cameohelp@vimeo.com
+- type: x-email
+  url: inquiries@vimeo.com
 - type: x-embeddable
   url: https://developer.vimeo.com/player/embedding
 - type: x-embeddable

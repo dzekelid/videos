@@ -112,10 +112,9 @@ paths:
         Downloads\r\nThe `auto_download` request query parameter specifies whether
         to automatically download the video.\r\n\r\nIf the `auto_download` request
         query parameter is set to _true_, the API will return an HTTP status code
-        303 *See Other*.\u2002Your client code will need to process this response
-        and redirect to the URI specified in the *Location* header to enable you to
-        automatically download the file. The redirection workflow follows the [HTTP
-        1.1 protocol](https://tools.ietf.org/html/rfc7231#section-6.4.4).\r\n\r\nClient
+        303 *See Other*.???Your client code will need to process this response and
+        redirect to the URI specified in the *Location* header to enable you to automatically
+        download the file. The redirection workflow follows the [HTTP 1.1 protocol](https://tools.ietf.org/html/rfc7231#section-6.4.4).\r\n\r\nClient
         Request:\r\n\r\n```\r\nhttps://api.gettyimages.com/v3/downloads/videos/[asset_id]?auto_download=true\r\n```\r\n\r\nServer
         Response:\r\n\r\n```\r\nHTTP/1.1 303 See Other\r\nLocation: https://delivery.gettyimages.com/...\r\n```\r\n\r\nIf
         the `auto_download` request query parameter is set to false, the API will

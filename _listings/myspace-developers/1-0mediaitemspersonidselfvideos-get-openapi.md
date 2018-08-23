@@ -15,6 +15,40 @@ produces:
 consumes:
 - application/json
 paths:
+  /opensearch/videos:
+    get:
+      summary: Get Opensearch Veos
+      description: Returns search results for videos.
+      operationId: opensearch.videos.get
+      x-api-path-slug: opensearchvideos-get
+      parameters:
+      - in: query
+        name: count
+        description: Number of items to return
+      - in: query
+        name: culture
+        description: The culture context of the search
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: searchTerms
+        description: Free form search terms or query words
+      - in: query
+        name: startPage
+        description: Which page to start at for the results
+      - in: query
+        name: tag
+        description: Determine if searching on tags, as opposed to contents
+      - in: query
+        name: videoMode
+        description: Search for specific video types
+      responses:
+        200:
+          description: OK
+      tags:
+      - Opensearch
+      - Videos
   /1.0/mediaItems/{personId}/@videos/@supportedcategories/{categoryId}:
     get:
       summary: Get Mediaitems Personid Videos Supported Categories Categoryid

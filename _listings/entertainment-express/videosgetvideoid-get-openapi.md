@@ -1,0 +1,83 @@
+---
+swagger: "2.0"
+x-collection-name: Entertainment Express
+x-complete: 0
+info:
+  title: Entertainment Express Returns a URL to a requested video.
+  description: "Returns a URL to the requested video. [Video Format Specs](https://developer.iva-api.com/docs/v1/video-formats)\n\n**Formats:**
+    MP4 = 4, HLS = 11, Dash = 14, HSS = 12, HDS = 13\n\n**MP4 KbRate:** 80, 212, 450,
+    750, 1500, 2500(HD sources only), 5000 (sources >=  1080p)  \n\n**Adaptive Min/Max
+    rate:** 212000, 350000, 600000, 1200000, 2000000, 2500000, 3500000  \n\n `URLs
+    requested with a Demo account will always return max 750 kbps video.  Full commercial
+    account required for higher bitrates.`"
+  version: "2.0"
+host: ee.iva-api.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /Videos/GetVideo/{Id}:
+    get:
+      summary: Returns a URL to a requested video.
+      description: "Returns a URL to the requested video. [Video Format Specs](https://developer.iva-api.com/docs/v1/video-formats)\n\n**Formats:**
+        MP4 = 4, HLS = 11, Dash = 14, HSS = 12, HDS = 13\n\n**MP4 KbRate:** 80, 212,
+        450, 750, 1500, 2500(HD sources only), 5000 (sources >=  1080p)  \n\n**Adaptive
+        Min/Max rate:** 212000, 350000, 600000, 1200000, 2000000, 2500000, 3500000
+        \ \n\n `URLs requested with a Demo account will always return max 750 kbps
+        video.  Full commercial account required for higher bitrates.`"
+      operationId: GetVideo
+      x-api-path-slug: videosgetvideoid-get
+      parameters:
+      - in: query
+        name: end
+        description: Position in seconds to end video playback
+      - in: query
+        name: Expires
+        description: UTC Time to video link should expire
+      - in: query
+        name: Format
+        description: Video format
+      - in: path
+        name: Id
+        description: Id of the Video from either MovieVideo, ShowVideo, SeasonVideo,
+          EpisodeVideo object
+      - in: query
+        name: KbRate
+        description: Video bitrate required for MP4 content
+      - in: query
+        name: MaxRate
+        description: Adaptive Minimum rate
+      - in: query
+        name: MinRate
+        description: Adaptive Maximum rate
+      - in: query
+        name: ReportTag
+        description: Report tag used in video analytics
+      - in: query
+        name: start
+        description: Position in seconds to start video playback
+      responses:
+        200:
+          description: OK
+      tags:
+      - Videos
+      - Video
+      - Id
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
