@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-frames
 x-kinRank: "8"
 x-alexaRank: "5719311"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/framesocket/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Framesocket
-  x-api-slug: framesocket
-  description: framesocket is the best way for developers and content owners to tackle
-    video projects of any size.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg
-  humanURL: http://framesocket.com
-  baseURL: ://www.framesocket.com//api
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/framesocket/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://foursquare.api.gallery.streamdata.io

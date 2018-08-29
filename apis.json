@@ -1,150 +1,793 @@
 {
-	"name": "Xibo",
-	"x-slug": "xibo",
-	"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/xibo-digital-signage-logo.jpeg",
-	"x-kinRank": "7",
-	"x-alexaRank": "",
-	"tags": "Videos",
-	"created": "2018-08-23",
-	"modified": "2018-08-23",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/apis.md",
+	"name": "Streadata.io API Gallery - Videos",
+	"description": "This is a repository of videos APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/videos.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://videos.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Xibo API",
-			"x-api-slug": "xibo-api",
-			"description": "xibo-cms-api",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/xibo-digital-signage-logo.jpeg",
-			"humanURL": "http:\/\/www.xibo.org.uk",
-			"baseURL": "https:\/\/\/\/api",
-			"tags": "Signs, Signage, Display, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Xibo API",
-			"x-api-slug": "xibo-api",
-			"description": "xibo-cms-api",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/xibo-digital-signage-logo.jpeg",
-			"humanURL": "http:\/\/www.xibo.org.uk",
-			"baseURL": "https:\/\/\/\/api",
-			"tags": "Signs, Signage, Display, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoplaylistid-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Xibo API",
-			"x-api-slug": "xibo-api",
-			"description": "xibo-cms-api",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/xibo-digital-signage-logo.jpeg",
-			"humanURL": "http:\/\/www.xibo.org.uk",
-			"baseURL": "https:\/\/\/\/api",
-			"tags": "Signs, Signage, Display, Relative Data, Service API",
-			"properties": [
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetlocalvideoplaylistid-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoplaylistid-post-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoinplaylistid-post-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/playlistwidgetvideoinplaylistid-post-openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Xibo API",
-			"x-api-slug": "xibo-api",
-			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/xibo-digital-signage-logo.jpeg",
-			"humanURL": "http:\/\/www.xibo.org.uk",
-			"baseURL": "https:\/\/\/\/api",
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
 			"tags": "Videos",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/videos\/master\/_listings\/xibo\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brightcove",
+			"x-api-slug": "brightcove",
+			"description": "Brightcove Video Cloud is the leading online video hosting platform and online video player solution. Learn how you can leverage the power of Brightcoves video hosting services for your brand.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/165-brightcove.jpg",
+			"humanURL": "http://brightcove.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/brightcove/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TokBox",
+			"x-api-slug": "tokbox",
+			"description": "TokBox???s WebRTC platform, OpenTok, makes it possible to add live video, voice and messaging to websites, iOS, and Android apps. 30-day free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/260-tokbox.jpg",
+			"humanURL": "http://www.tokbox.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tokbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Viddler",
+			"x-api-slug": "viddler",
+			"description": "Viddler is an online sales training platform with integrated tools for practice and evaluation. The Viddler service offers video-based instruction and optional coaching, and allows customers to engage with course content through guided assignments and self-recorded practice sessions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/274-viddler.jpg",
+			"humanURL": "http://www.viddler.com/",
+			"baseURL": "https://api.viddler.com//api/v2",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vimeo",
+			"x-api-slug": "vimeo",
+			"description": "Join the worlds best community of creators and fans, enjoy hosting videos in gorgeous, ad-free 4K, and get powerful tools for filmmakers and brands.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/275-vimeo.jpg",
+			"humanURL": "http://vimeo.com",
+			"baseURL": "https://api.vimeo.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Zencoder",
+			"x-api-slug": "zencoder",
+			"description": "Audio and video encoding/transcoding software as a service. Convert videos online into web and mobile formats using our cloud encoding API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg",
+			"humanURL": "http://zencoder.com/",
+			"baseURL": "https://app.zencoder.com//api/v2",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/zencoder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AnyClipMedia",
+			"x-api-slug": "anyclipmedia",
+			"description": "AnyClip is a leading technological platform for video monetization and personalization.    AnyClip has curated a rich video content library made up of a million clips from the worlds leading premium content owners, film studios, and sports teams. Thro...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/341-anyclipmedia.jpg",
+			"humanURL": "http://wiki.anyclip.com/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/anyclipmedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PBS",
+			"x-api-slug": "pbs",
+			"description": "Watch full episodes of your favorite PBS shows, explore music and the arts, find in-depth news analysis, and more. Home to Antiques Roadshow, Frontline, NOVA, PBS Newshour, Masterpiece and many others.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/369-pbs.jpg",
+			"humanURL": "http://www.pbs.org/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/pbs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vzaar",
+			"x-api-slug": "vzaar",
+			"description": "vzaar is an online video hosting service, which launched in 2007. The site supports video streaming, embedding, sharing, and video storage. Originally targeted at eBay sellers, the service expanded in 2008 and now provides online video services designed for business and other commercial operations.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png",
+			"humanURL": "http://vzaar.com/",
+			"baseURL": "https://vzaar.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fluxiom",
+			"x-api-slug": "fluxiom",
+			"description": "Fluxiom offers seamless online file management in the cloud. Keep your files private, share them with a select audience or broadcast them to the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg",
+			"humanURL": "http://fluxiom.com",
+			"baseURL": "https://{subdomain}.fluxiom.com//api/{format}",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/fluxiom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rovi",
+			"x-api-slug": "rovi",
+			"description": "TiVo is a pioneer in DVRs | Buy TiVo BOLT, Roamio, and Mini | Free shipping | Integrate all streaming apps into TV | Start your free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/648-rovi.jpg",
+			"humanURL": "http://developer.rovicorp.com/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rovi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cincopa",
+			"x-api-slug": "cincopa",
+			"description": "A multimedia platform provider of comprehensive, rich media kits, enabling you to create, host, deliver and manage enhancements to your website.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/729-cincopa.jpg",
+			"humanURL": "http://www.cincopa.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/cincopa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Framesocket",
+			"x-api-slug": "framesocket",
+			"description": "Easily integrate video into your website or mobile applications. Build traffic via Google Facebook YouTube Twitter. No limits on users storage or bandwidth.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/795-framesocket.jpg",
+			"humanURL": "http://framesocket.com",
+			"baseURL": "://www.framesocket.com//api",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/framesocket/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SpeakerText",
+			"x-api-slug": "speakertext",
+			"description": "cielo24 captions, transcripts, and video intelligence transforms unstructured media into fully searchable structured media data, powering enhanced discovery, reach, engagement, and accessibility compliance. Contact us for a demo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/938-speakertext.jpg",
+			"humanURL": "http://speakertext.com/",
+			"baseURL": "https://api.speakertext.com//v1",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/speakertext/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Getty Images",
+			"x-api-slug": "getty-images",
+			"description": "Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg",
+			"humanURL": "http://www.gettyimages.com/",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Markify",
+			"x-api-slug": "markify",
+			"description": "Markify is the worlds most accurate full trademark search. We help you avoid all confusingly similar marks.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1024-markify.jpg",
+			"humanURL": "http://www.markify.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/markify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gumroad",
+			"x-api-slug": "gumroad",
+			"description": "Sell music, comics, software, books, and films directly to your audience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg",
+			"humanURL": "http://gumroad.com",
+			"baseURL": "https://api.gumroad.com//v2",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/gumroad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Roku",
+			"x-api-slug": "roku",
+			"description": "Roku provides the simplest way to stream entertainment to your TV. On your terms. With thousands of available channels to choose from.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1134-roku.jpg",
+			"humanURL": "http://www.roku.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/roku/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VoiceBunny API",
+			"x-api-slug": "voicebunny-api",
+			"description": "Listen to thousands of voiceovers by professional voice-actors that collectively speak 50+ languages and dialects. Book one or submit a contest and get auditions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1210-voicebunny-api.jpg",
+			"humanURL": "http://voicebunny.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/voicebunny-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chute",
+			"x-api-slug": "chute",
+			"description": "End-to-end solution for visual marketing -  Uncover consumer & competitive insights, manage UGC & publish content to websites, social, ads &",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1254-chute.jpg",
+			"humanURL": "http://www.getchute.com/",
+			"baseURL": "http://api.getchute.com//v2/",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tout",
+			"x-api-slug": "tout",
+			"description": "Online Video Network Delivering News, Sports, and Entertainment Video to Over 25MM Viewers Per Month.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1491-tout.jpg",
+			"humanURL": "http://www.tout.com/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tout/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MySpace Developers",
+			"x-api-slug": "myspace-developers",
+			"description": "AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram: http://instagram.com/Myspace  Tumblr: http://myspace.tumblr.com  YouTube: http://www.youtube.com/Myspace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg",
+			"humanURL": "http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API",
+			"baseURL": "https://api.myspace.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Southern California",
+			"x-api-slug": "university-of-southern-california",
+			"description": "The University of Southern California is one of the worlds leading private research universities, established in 1880. An anchor institution in Los Angeles, a global center for arts, technology and international trade, USC enrolls more international s...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1740-university-of-southern-california.jpg",
+			"humanURL": "http://usc.edu",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/university-of-southern-california/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rev",
+			"x-api-slug": "rev",
+			"description": "Online audio transcription, video captions and document translation services. For immigration, business, legal, academic and personal needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1846-rev.jpg",
+			"humanURL": "http://www.rev.com",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rev/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coconut",
+			"x-api-slug": "coconut",
+			"description": "Powerful and cost-effective video encoding platform - 50% cheaper than AWS and Zencoder - They trust us: Adobe, Tumblr, CloudApp, Classdojo, Sony...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1891-coconut.jpg",
+			"humanURL": "http://coconut.co/",
+			"baseURL": "https://heywatch.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/coconut/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "YouTube",
+			"x-api-slug": "youtube",
+			"description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg",
+			"humanURL": "https://www.youtube.com/",
+			"baseURL": "https://www.googleapis.com//youtube/v1",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/youtube/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vidcaster",
+			"x-api-slug": "vidcaster",
+			"description": "Vidcaster is a video training platform used by companies like Wix, VMware, and MIT to drive measurable training outcomes for employees, prospects, customers and distributed workforces. The platform includes a suite of tools for video hosting, user authentication, in-video engagement, and analytics data that integrates into third-party systems.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vidcaster-logo.png",
+			"humanURL": "http://www.vidcaster.com/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vidcaster/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigCommerce",
+			"x-api-slug": "bigcommerce",
+			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than 60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies, and industry-leading brands.",
+			"image": "",
+			"humanURL": "http://bigcommerce.com",
+			"baseURL": "https://api.bigcommerce.com//stores",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/bigcommerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SYNQ Video",
+			"x-api-slug": "synq-video",
+			"description": "White glove ingest service for VOD and Cable operators. Say goodbye to infinite mail threads on metadata outputs, file transfer solutions and debugging. We take care of video ingestion with our central repository for VOD content. Assets are easily accessible for distributors through our API with the outputs you expect.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/synq-video-logo.png",
+			"humanURL": "https://www.synq.fm",
+			"baseURL": "https://api.synq.fm//v1",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/synq-video/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HHS Media Services",
+			"x-api-slug": "hhs-media-services",
+			"description": "Use this API platform to create sites with text and multimedia content for syndication. CDC, FDA, HHS, and NIH have built syndication sites using this platform, which is available in Java and .NET.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hhs-media-services.png",
+			"humanURL": "https://api.digitalmedia.hhs.gov/",
+			"baseURL": "https://api.digitalmedia.hhs.gov//api/v2",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/hhs-media-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "api.video",
+			"x-api-slug": "api-video",
+			"description": "api.video is a scalable webservice able to encode on the go to facilitate immediate playback, enhancing viewer experiences across multiple devices and platforms. Start within minutes with a well-documented API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28779-api-video.jpg",
+			"humanURL": "https://api.video",
+			"baseURL": "https://ws.api.video//",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/api-video/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Videos",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/xibo/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-blog-rss",
-			"url": "https:\/\/blog.xibo.org.uk\/rss\/"
-		},
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/xibosignage"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/xibosignage"
-		},
-		{
-			"type": "x-website",
-			"url": "http:\/\/www.xibo.org.uk"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/xero.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-blog",
-			"url": "https:\/\/blog.xibo.org.uk\/"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/xibo.org.uk"
-		}
-	],
+	"tags": "Videos",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Brightcove",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/brightcove/apis.yaml"
+		},
+		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "TokBox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tokbox/apis.yaml"
+		},
+		{
+			"name": "Viddler",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/viddler/apis.yaml"
+		},
+		{
+			"name": "Vimeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Zencoder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/zencoder/apis.yaml"
+		},
+		{
+			"name": "AnyClipMedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/anyclipmedia/apis.yaml"
+		},
+		{
+			"name": "PBS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/pbs/apis.yaml"
+		},
+		{
+			"name": "Vzaar",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apis.yaml"
+		},
+		{
+			"name": "Fluxiom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/fluxiom/apis.yaml"
+		},
+		{
+			"name": "Rovi",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rovi/apis.yaml"
+		},
+		{
+			"name": "Cincopa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/cincopa/apis.yaml"
+		},
+		{
+			"name": "Framesocket",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/framesocket/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "SpeakerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/speakertext/apis.yaml"
+		},
+		{
+			"name": "Getty Images",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/getty-images/apis.yaml"
+		},
+		{
+			"name": "Markify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/markify/apis.yaml"
+		},
+		{
+			"name": "Gumroad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/gumroad/apis.yaml"
+		},
+		{
+			"name": "Roku",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/roku/apis.yaml"
+		},
+		{
+			"name": "VoiceBunny API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/voicebunny-api/apis.yaml"
+		},
+		{
+			"name": "Chute",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/apis.yaml"
+		},
+		{
+			"name": "Tout",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tout/apis.yaml"
+		},
+		{
+			"name": "MySpace Developers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/myspace-developers/apis.yaml"
+		},
+		{
+			"name": "University of Southern California",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/university-of-southern-california/apis.yaml"
+		},
+		{
+			"name": "Rev",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rev/apis.yaml"
+		},
+		{
+			"name": "Coconut",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/coconut/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "YouTube",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/youtube/apis.yaml"
+		},
+		{
+			"name": "Vidcaster",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vidcaster/apis.yaml"
+		},
+		{
+			"name": "BigCommerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/bigcommerce/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "SYNQ Video",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/synq-video/apis.yaml"
+		},
+		{
+			"name": "HHS Media Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/hhs-media-services/apis.yaml"
+		},
+		{
+			"name": "api.video",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/api-video/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/xibo/apis.yaml"
 		}
 	]
 }

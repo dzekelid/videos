@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1134-roku.
 x-kinRank: "8"
 x-alexaRank: "7400"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/roku/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Roku
-  x-api-slug: roku
-  description: Roku provides the simplest way to stream entertainment to your TV.
-    On your terms. With thousands of available channels to choose from.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1134-roku.jpg
-  humanURL: http://www.roku.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/roku/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.roku.com

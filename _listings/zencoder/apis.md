@@ -7,26 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencod
 x-kinRank: "7"
 x-alexaRank: "596400"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/zencoder/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Zencoder API
-  x-api-slug: zencoder-api
-  description: Zencoders Video Encoding API allows you to seamlessly integrate your
-    application with Zencoder???s extremely fast and scalable encoding platform. Our
-    RESTful API is extensively documented with easy-to-use guides and detailed descriptions,
-    as well as thoroughly tested code libraries and code examples for every encoding
-    setting. Backed by an uptime SLA and live support with real encoding engineers,
-    integrating with Zencoder couldn???t be easier.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/282-zencoder.jpg
-  humanURL: http://zencoder.com/
-  baseURL: https://app.zencoder.com//api/v2
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/zencoder/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://youtube.api.gallery.streamdata.io

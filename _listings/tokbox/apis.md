@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/260-tokbox
 x-kinRank: "7"
 x-alexaRank: "120168"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tokbox/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TokBox
-  x-api-slug: tokbox
-  description: TokBox???s WebRTC platform, OpenTok, makes it possible to add live
-    video, voice and messaging to websites, iOS, and Android apps. 30-day free trial.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/260-tokbox.jpg
-  humanURL: http://www.tokbox.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tokbox/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/tokbox.json

@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscr
 x-kinRank: "7"
 x-alexaRank: "91598"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/apis.md
 specificationVersion: "0.14"
 apis:
-- name: News Cred
-  x-api-slug: news-cred
-  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
+- name: News Cred - Topic Videos
+  x-api-slug: topicguidvideos-get
+  description: Returns a list of videos related to the specified topic.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
   baseURL: https://api.newscred.com//
@@ -26,9 +26,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-openapi.md
-- name: News Cred
-  x-api-slug: news-cred
-  description: returns-a-list-of-articles-according-to-the-specified-set-of-parameters-
+- name: News Cred - Videos
+  x-api-slug: videos-get
+  description: Returns videos matching the given query string
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
   baseURL: https://api.newscred.com//
@@ -36,25 +36,10 @@ apis:
     LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
     Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/topicguidvideos-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/videos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/videos-get-openapi.md
-- name: News Cred
-  x-api-slug: news-cred
-  description: NewsCred is the leading enterprise content marketing company. NewsCred
-    delivers content marketing solutions that drive business results for top brands
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
-  humanURL: http://newscred.com
-  baseURL: https://api.newscred.com//
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/newscred/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://news.api.api.gallery.streamdata.io

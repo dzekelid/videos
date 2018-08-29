@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/648-rovi.j
 x-kinRank: "7"
 x-alexaRank: "51965"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rovi/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Rovi
-  x-api-slug: rovi
-  description: TiVo is a pioneer in DVRs | Buy TiVo BOLT, Roamio, and Mini | Free
-    shipping | Integrate all streaming apps into TV | Start your free trial today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/648-rovi.jpg
-  humanURL: http://developer.rovicorp.com/
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rovi/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://developer.rovicorp.com/

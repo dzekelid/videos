@@ -205,6 +205,29 @@ paths:
       tags:
       - Video
       - Upload
+  /video/uploader:
+    post:
+      summary: Return embeddable url to an uploader widget
+      description: Returns an embeddable url, that contains an uploader widget that
+        allows you to easily upload any mp4. Great way to simplify the uploading process
+        for end users.
+      operationId: uploader
+      x-api-path-slug: videouploader-post
+      parameters:
+      - in: formData
+        name: api_key
+      - in: formData
+        name: timeout
+        description: How long the uploader widget works for
+      - in: formData
+        name: video_id
+        description: The ID of the video you are going to upload into
+      responses:
+        200:
+          description: OK
+      tags:
+      - Video
+      - Uploader
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

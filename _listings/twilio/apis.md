@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Twilio
-  x-api-slug: twilio
-  description: Cloud communications platform for building SMS, Voice & Messaging applications
-    on an API built for global scale. Get started with a free trial.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
-  humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01/
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/twilio/openapi.md
+apis: []
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install

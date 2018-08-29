@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1210-voice
 x-kinRank: "7"
 x-alexaRank: "94247"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/voicebunny-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: VoiceBunny
-  x-api-slug: voicebunny
-  description: Use our RESTful API to get fast and professional voiceovers for any
-    type of project. You determine the price or royalties. Over 100k+ talents and
-    50+ languages. 100% money-back guarantee.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1210-voicebunny-api.jpg
-  humanURL: http://voicebunny.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/voicebunny-api/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.voicebunny.com

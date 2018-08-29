@@ -86,6 +86,34 @@ paths:
       - Video
       - "On"
       - Layout
+  /playlist/widget/videoin/{playlistId}:
+    post:
+      summary: Add a Video In Widget
+      description: Add a new Video In Widget to the specified playlist
+      operationId: WidgetVideoInAdd
+      x-api-path-slug: playlistwidgetvideoinplaylistid-post
+      parameters:
+      - in: formData
+        name: duration
+        description: The Widget Duration
+      - in: path
+        name: playlistId
+        description: The playlist ID to add a Widget to
+      - in: formData
+        name: sourceId
+        description: 'Which device input should be shown? available options: HDMI,
+          RGB, DVI, DP, OPS'
+      - in: formData
+        name: useDuration
+        description: Flag (0, 1) Select only if you will provide duration parameter
+          as well
+      responses:
+        200:
+          description: OK
+      tags:
+      - Video
+      - In
+      - Widget
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -8,27 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/165-bright
 x-kinRank: "9"
 x-alexaRank: "20978"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/brightcove/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Brightcove
-  x-api-slug: brightcove
-  description: Brightcove Inc., a leading global provider of cloud content services,
-    provides a family of products used to publish and distribute the worlds professional
-    digital media. The companys products include Brightcove Video Cloud, the market-leading
-    online video platform, and Brightcove App Cloud, the pioneering content app platform.
-    Together, more than 4,200 customers in 50 countries rely on Brightcoves cloud
-    content services to build and operate exceptional media experiences across PCs,
-    smartphones, tablets and connected TVs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/165-brightcove.jpg
-  humanURL: http://brightcove.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/brightcove/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://data.brightcove.com/

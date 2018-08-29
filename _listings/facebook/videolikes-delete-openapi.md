@@ -184,6 +184,22 @@ paths:
       tags:
       - Video
       - Likes
+  /{video}/picture:
+    get:
+      summary: Get Veo Picture
+      description: The image which represents the content of the video
+      operationId: getVeoPicture
+      x-api-path-slug: videopicture-get
+      parameters:
+      - in: path
+        name: video
+        description: Represents the ID of the video object
+      responses:
+        200:
+          description: OK
+      tags:
+      - Video
+      - Picture
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

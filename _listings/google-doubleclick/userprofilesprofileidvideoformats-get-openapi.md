@@ -29,6 +29,25 @@ paths:
       tags:
       - Advertising
       - Video
+  /userprofiles/{profileId}/videoFormats/{id}:
+    get:
+      summary: Get Video
+      description: Gets one video format by ID.
+      operationId: dfareporting.videoFormats.get
+      x-api-path-slug: userprofilesprofileidvideoformatsid-get
+      parameters:
+      - in: path
+        name: id
+        description: Video format ID
+      - in: path
+        name: profileId
+        description: User profile ID associated with this request
+      responses:
+        200:
+          description: OK
+      tags:
+      - Advertising
+      - Video
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

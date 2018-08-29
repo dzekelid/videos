@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Entertainment Express
 x-complete: 1
@@ -62,4 +61,31 @@ paths:
       - Videos
       - Video
       - Id
----
+  /Analytics/VideoLog/:
+    get:
+      summary: Get Views by Video.
+      description: No required parameters, DateValue defaults to Today.
+      operationId: GetAnalyticsViewsByVideoLog
+      x-api-path-slug: analyticsvideolog-get
+      parameters:
+      - in: query
+        name: DateValue
+        description: Days spanned by report
+      - in: query
+        name: End
+        description: Report end date
+      - in: query
+        name: Limit
+        description: Number of records returned from top of response
+      - in: query
+        name: ReportTag
+        description: Report Tag filter
+      - in: query
+        name: Start
+        description: Report start date
+      responses:
+        200:
+          description: OK
+      tags:
+      - Analytics
+      - VideoLog

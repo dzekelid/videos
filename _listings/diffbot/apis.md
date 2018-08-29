@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbo
 x-kinRank: "9"
 x-alexaRank: "304032"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/diffbot/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Diffbot
-  x-api-slug: diffbot
-  description: Never write another web scraper. Diffbot automates web data extraction
-    from any website using AI, computer vision, &amp; machine learning.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg
-  humanURL: http://www.diffbot.com/our-apis/follow/
-  baseURL: https:////
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/diffbot/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.diffbot.com

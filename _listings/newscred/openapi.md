@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: NewsCred
 x-complete: 1
@@ -81,4 +80,3 @@ paths:
       tags:
       - News
       - Videos
----

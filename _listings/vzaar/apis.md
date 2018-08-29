@@ -9,14 +9,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Post Api Videos
+  x-api-slug: apivideos-post
+  description: nnThis API call tells the vzaar system to process a newly uploaded
+    video. This will encode it if necessary and then provide a vzaar video idea back.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -26,69 +27,83 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Videos Signature
+  x-api-slug: apivideossignature-get
+  description: nnThis API call allows a user to request a GUID and an AWS S3 signature.
+    With these credentials the user will then be able upload a file into vzaar video
+    storage area.nnThe response for this must be parsed and used in the Upload step.
+    The upload will fail if any of these details are incorrect.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
   tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Videos
+  x-api-slug: apivideosvideo-format-get
+  description: 'nnvzaar uses the oEmbed open standard for allowing 3rd parties to
+    integrated with the vzaar. You can use the vzaar video URL to easily obtain the
+    appropriate embed code for that video. To find out more about oEmbed view the
+    specification here: http://oembed.com/nn'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
   tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Username Videos
+  x-api-slug: apiusernamevideos-xml-get
+  description: nnThis API call returns a list of the users active videos along with
+    its relevant metadata. 20 videos are returned by default but this is customisable.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
   tags: API United Kingdom, Stack Network, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apiusernamevideos-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apiusernamevideos-xml-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar-is-an-online-video-hosting-service-with-fantastic-features-that-are-designed-for-business--deliver-to-mobile-or-the-web-straight-from-your-site-
+- name: VZaar API - Get Api Videos
+  x-api-slug: apivideosvideo-format-get
+  description: 'nnvzaar uses the oEmbed open standard for allowing 3rd parties to
+    integrated with the vzaar. You can use the vzaar video URL to easily obtain the
+    appropriate embed code for that video. To find out more about oEmbed view the
+    specification here: http://oembed.com/nn'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
+- name: VZaar API - Get Api Videos
+  x-api-slug: apivideosvideo-format-get
+  description: 'nnvzaar uses the oEmbed open standard for allowing 3rd parties to
+    integrated with the vzaar. You can use the vzaar video URL to easily obtain the
+    appropriate embed code for that video. To find out more about oEmbed view the
+    specification here: http://oembed.com/nn'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
+- name: VZaar API - Post Api Videos
+  x-api-slug: apivideos-post
+  description: nnThis API call tells the vzaar system to process a newly uploaded
+    video. This will encode it if necessary and then provide a vzaar video idea back.nn
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
   humanURL: http://vzaar.com/
   baseURL: https://vzaar.com//
@@ -98,33 +113,49 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideos-post-openapi.md
+- name: VZaar API - Get Api Videos Signature
+  x-api-slug: apivideossignature-get
+  description: nnThis API call allows a user to request a GUID and an AWS S3 signature.
+    With these credentials the user will then be able upload a file into vzaar video
+    storage area.nnThe response for this must be parsed and used in the Upload step.
+    The upload will fail if any of these details are incorrect.nn
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideossignature-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
+- name: VZaar API - Get Api Username Videos
+  x-api-slug: apiusernamevideos-xml-get
+  description: nnThis API call returns a list of the users active videos along with
+    its relevant metadata. 20 videos are returned by default but this is customisable.nn
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apiusernamevideos-xml-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apiusernamevideos-xml-get-openapi.md
+- name: VZaar API - Get Api Videos
+  x-api-slug: apivideosvideo-format-get
+  description: 'nnvzaar uses the oEmbed open standard for allowing 3rd parties to
+    integrated with the vzaar. You can use the vzaar video URL to easily obtain the
+    appropriate embed code for that video. To find out more about oEmbed view the
+    specification here: http://oembed.com/nn'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
+  humanURL: http://vzaar.com/
+  baseURL: https://vzaar.com//
+  tags: API United Kingdom, Stack Network, Relative Data, Service API
+  properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/apivideosvideo-format-get-openapi.md
-- name: Vzaar API
-  x-api-slug: vzaar-api
-  description: vzaar is anonline video hostingservice with fantasticfeaturesthat are
-    designed for business. Deliver tomobileor the web straight from your site.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/523_logo.png
-  humanURL: http://vzaar.com/
-  baseURL: https://vzaar.com//
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vzaar/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://vmware.api.gallery.streamdata.io

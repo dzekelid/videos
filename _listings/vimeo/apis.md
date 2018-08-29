@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/275-vimeo.
 x-kinRank: "8"
 x-alexaRank: "137"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Vimeo API
-  x-api-slug: vimeo-api
-  description: The only way to perform authenticated read/write requests on videos,
-    users, groups, channels, albums, or upload. The Advanced API uses OAuth for authentication
-    and you???ll first need to register your app.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/275-vimeo.jpg
-  humanURL: http://vimeo.com
-  baseURL: https://api.vimeo.com//
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vimeo/openapi.md
+apis: []
 x-common:
 - type: x-application-management
   url: https://developer.vimeo.com/apps

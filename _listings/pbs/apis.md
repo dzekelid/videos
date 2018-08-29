@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/369-pbs.jp
 x-kinRank: "7"
 x-alexaRank: "1760"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/pbs/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PBS
-  x-api-slug: pbs
-  description: Watch full episodes of your favorite PBS shows, explore music and the
-    arts, find in-depth news analysis, and more. Home to Antiques Roadshow, Frontline,
-    NOVA, PBS Newshour, Masterpiece and many others.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/369-pbs.jpg
-  humanURL: http://www.pbs.org/
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/pbs/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.pbs.org

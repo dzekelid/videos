@@ -209,6 +209,81 @@ paths:
       - Self
       - '@videos'
       - MediaItemId
+  /1.0/mediaItems/{personId}/@self/@videos:
+    post:
+      summary: Post Mediaitems Personid Self Videos
+      description: Adds videos from a specified album.
+      operationId: 1.0.mediaItems.personId._self._videos.post
+      x-api-path-slug: 1-0mediaitemspersonidselfvideos-post
+      parameters:
+      - in: query
+        name: Content-Type
+        description: Specifies Content Type
+      - in: header
+        name: Content-Type
+        description: Specifies Content Type
+      - in: query
+        name: count
+        description: Only returns the nearest multiple of 3 compared to the original
+          value
+      - in: query
+        name: fields
+        description: The following field names are supported
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: msPrivacyLevel
+        description: MySpace specific field
+      - in: path
+        name: personId
+        description: The persons identifier
+      - in: query
+        name: startIndex
+        description: Indicates the index of the first item to retrieve from the query
+          set
+      responses:
+        200:
+          description: OK
+      tags:
+      - MediaItems
+      - People
+      - Self
+      - '@videos'
+    get:
+      summary: Get Mediaitems Personid Self Videos
+      description: Retrieves all the videos.
+      operationId: 1.0.mediaItems.personId._self._videos.get
+      x-api-path-slug: 1-0mediaitemspersonidselfvideos-get
+      parameters:
+      - in: query
+        name: count
+        description: Only returns the nearest multiple of 3 compared to the original
+          value
+      - in: query
+        name: fields
+        description: The following field names are supported
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: msPrivacyLevel
+        description: MySpace specific field
+      - in: path
+        name: personId
+        description: The persons identifier
+      - in: query
+        name: startIndex
+        description: Indicates the index of the first item to retrieve from the query
+          set
+      responses:
+        200:
+          description: OK
+      tags:
+      - MediaItems
+      - People
+      - Self
+      - '@videos'
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

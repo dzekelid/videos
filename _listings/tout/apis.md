@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1491-tout.
 x-kinRank: "7"
 x-alexaRank: "524401"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tout/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Tout
-  x-api-slug: tout
-  description: Online Video Network Delivering News, Sports, and Entertainment Video
-    to Over 25MM Viewers Per Month.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1491-tout.jpg
-  humanURL: http://www.tout.com/
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/tout/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.tout.com/

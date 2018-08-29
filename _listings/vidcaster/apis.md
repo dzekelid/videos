@@ -10,25 +10,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vidcaster/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Vidcaster
-  x-api-slug: vidcaster
-  description: Vidcaster is a video training platform used by companies like Wix,
-    VMware, and MIT to drive measurable training outcomes for employees, prospects,
-    customers and distributed workforces. The platform includes a suite of tools for
-    video hosting, user authentication, in-video engagement, and analytics data that
-    integrates into third-party systems.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vidcaster-logo.png
-  humanURL: http://www.vidcaster.com/
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/vidcaster/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.vidcaster.com/

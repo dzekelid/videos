@@ -7,24 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxio
 x-kinRank: "7"
 x-alexaRank: "3532345"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/fluxiom/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Fluxiom API
-  x-api-slug: fluxiom-api
-  description: The Fluxiom API allows you to hook into Fluxiom and connect it with
-    other apps.  It can be used for retrieving and uploading assets, querying metadata,
-    and more.  This enables Fluxiom to easily integrate with your workflow and the
-    tools you already use.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
-  humanURL: http://fluxiom.com
-  baseURL: https://{subdomain}.fluxiom.com//api/{format}
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/fluxiom/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://flickr.api.gallery.streamdata.io

@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1254-chute
 x-kinRank: "8"
 x-alexaRank: "902019"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Chute Media
-  x-api-slug: chute-media
-  description: The Chute Media platform helps web and mobile app developers build
-    any photo or video app they can imagine. The Chute Media platform includes a REST
-    API and a set of developer tools that add greater photo and video functionality
-    to mobile apps. Functionality exposed includes search, social tools, uploading
-    of photos and much more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1254-chute.jpg
-  humanURL: http://www.getchute.com/
-  baseURL: http://api.getchute.com//v2/
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/chute/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.getchute.com

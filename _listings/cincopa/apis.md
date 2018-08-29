@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/729-cincop
 x-kinRank: "7"
 x-alexaRank: "94824"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/cincopa/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Cincopa
-  x-api-slug: cincopa
-  description: This page contains extended documentation and links about the Cincopa
-    API. With the API, you can create your application that utilizes each users media.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/729-cincopa.jpg
-  humanURL: http://www.cincopa.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/cincopa/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.cincopa.com/skins/api/

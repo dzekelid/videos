@@ -7,26 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1846-rev.j
 x-kinRank: "8"
 x-alexaRank: "14610"
 tags: Videos
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rev/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Rev Transcription API
-  x-api-slug: rev-transcription-api
-  description: Rev is a San Francisco based startup providing document translation
-    and audio/video transcription services. The Rev API provides a RESTful interface
-    to these services. The API exposes the entire project lifecycle, including ordering,
-    source file uploading, and translation/transcription delivery. The API communicates
-    over HTTPS, requires an API key, and supports JSON or XML formatted responses.
-    A sandbox environment is included.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1846-rev.jpg
-  humanURL: http://www.rev.com
-  baseURL: https:///
-  tags: Videos
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/videos/master/_listings/rev/openapi.md
+apis: []
 x-common:
 - type: x-base-url
   url: http://api-sandbox.rev.com

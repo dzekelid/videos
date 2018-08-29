@@ -108,6 +108,26 @@ paths:
       - ID
       - From
       - Youtube
+    get:
+      summary: Retrieve all videos for a single product
+      description: ""
+      operationId: V3CatalogProductsVideosByStoreHashAndIdGet
+      x-api-path-slug: store-hashv3catalogproductsidvideos-get
+      parameters:
+      - in: path
+        name: id
+      - in: path
+        name: store_hash
+      responses:
+        200:
+          description: OK
+      tags:
+      - Commerce
+      - Retrieve
+      - ""
+      - Videosa
+      - Single
+      - Product
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
